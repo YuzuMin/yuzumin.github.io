@@ -6236,7 +6236,8 @@ button.bg-dark:focus {
 }
 
 .bg-img{
-    width: 27rem;
+    width:auto;
+    height: 25rem;
     object-fit: contain;
 }
 
