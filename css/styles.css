@@ -6251,8 +6251,16 @@ button.bg-dark:focus {
   background-color: #fff !important;
 }
 
+.bg-lightblvck{
+    background-color: #282828 !important;
+}
+
 .bg-darkblvck{
     background-color: #1c1c1c !important;
+}
+
+.bg-verydarkblvck{
+    background-color: #1a1a1a !important;
 }
 
 .bg-blvckfadeUP{
@@ -10282,6 +10290,13 @@ img::-moz-selection {
   font-weight: 700;
 }
 
+.btn-card {
+  padding: 0.75rem 2.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.925rem;
+  font-weight: 700;
+}
+
 .btn-social {
   height: 2.5rem;
   width: 2.5rem;
@@ -10360,6 +10375,20 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
+}
+
+.gplay_card{
+    color: var(--clr-neutral-100);
+    background-size: cover;
+    background-image: url
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.rounded-pill2 {
+  border-radius: 25px !important;
 }
 
 
@@ -10747,13 +10776,13 @@ header.masthead .masthead-heading {
   }
 }
 .team-member {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   text-align: center;
+  padding: 15px;
 }
 .team-member img {
   width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.5rem ;
 }
 .team-member h4 {
   margin-top: 1.5rem;
